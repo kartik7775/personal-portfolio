@@ -20,6 +20,7 @@ const Contact = () => {
         "MMgcwKOvIRb-aCqOB"
       )
       e.target.reset();
+      alert("Mail sent successfully.")
   };
 
   return (

@@ -5,7 +5,7 @@ import { FiCheckCircle } from "react-icons/fi";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>
+      <h5 className="dialogue">
         I don't know what you want. If you are looking for ransom, I can tell
         you I don't have money.
         <br />

@@ -1,96 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
 
-
-
-header{
-    height: 100vh;
-    padding-top: 5rem;
-    overflow: hidden;
+header {
+  height: 100vh;
+  padding-top: 5rem;
+  overflow: hidden;
 }
 
-.header_container{
-    text-align: center;
-    height: 100%;
-    position: relative;
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
-.header_container > h1{
-    font-family: 'Splash', cursive;
-    font-size: 4rem;
+.header_container > h1 {
+  font-family: "Splash", cursive;
+  font-size: 4rem;
 }
 
-.header_container > h2{
-    font-family: 'Splash', cursive;
-    font-size: 5rem;
+.header_container > h2 {
+  font-family: "Splash", cursive;
+  font-size: 5rem;
 }
 
-.header_container > h5{
-    font-family: 'Krona One', sans-serif;
-    font-size: 1rem;
-    color: gold;
-    margin: 0.5rem auto;
+.header_container > h5 {
+  font-family: "Krona One", sans-serif;
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin: 0.5rem auto;
 }
 
-.line{
-    position: absolute;
-    left: 30%;
-    width: 40%;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    border: 2px solid gold;
+.line {
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  /* border: 2px solid gold; */
+  height: 5px;
+  background: rgb(0, 116, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 116, 221, 0.3) 0%,
+    rgba(175, 0, 249, 0.3) 100%
+  );
 }
 
 /*===== Code To Action =====*/
-.cta{
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-    margin-top: 8rem;
+.cta {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 8rem;
 }
 
 /*===== Header Socials =====*/
-.header_socials{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+.header_socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
 
-.header_socials::after{
-    content: '';
-    width: 2px;
-    height: 2rem;
-    background: var(--color-primary);
+.header_socials::after {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background-color: var(--color-primary);
 }
 
 /*===== Scroll Down =====*/
-.scroll_down{
-    position: absolute;
-    right: -2.3rem;
-    bottom: 7rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1rem;
-    letter-spacing: 0.4rem;
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 7rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
-@media screen and (max-width: 1024px){
-    header{
-        height: 90vh;
-    }
-    .cta{
-        margin-top: 3rem;
-    }
+@media screen and (max-width: 1024px) {
+  header {
+    height: 90vh;
+  }
+  .cta {
+    margin-top: 3rem;
+  }
 
-    .line{
-        display: none;
-    }
-    /* .me{
+  .line {
+    display: none;
+  }
+  /* .me{
         width: 15rem;
         height: 20rem;
         margin-top: 1rem;
@@ -98,38 +103,37 @@ header{
     } */
 }
 
-
 /*===== Media Queries ( Small Screen Devices) =====*/
-@media screen and (max-width: 600px){
-    header{
-        height: 100vh;
-    }
-    
-    .header_socials,
-    .scroll_down{
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
 
-    .header_container > h2{
-        font-size: 2.5rem;
-    }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
 
-    .line{
-        display: none;
-        margin-bottom: 1rem;
-    }
+  .header_container > h2 {
+    font-size: 2.5rem;
+  }
 
-    .header_container h1{
-        font-size: 27px;
-    }
+  .line {
+    display: none;
+    margin-bottom: 1rem;
+  }
 
-    .header_container > h5{
-        margin: 1rem auto;
-    }
+  .header_container h1 {
+    font-size: 27px;
+  }
 
-    .cta{
-        margin-top: 4rem;
-        flex-direction: column;
-        align-items: center;
-    }
+  .header_container > h5 {
+    margin: 1rem auto;
+  }
+
+  .cta {
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+  }
 }

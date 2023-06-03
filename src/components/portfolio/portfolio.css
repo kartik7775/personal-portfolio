@@ -1,52 +1,64 @@
-.portfolio__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
 }
 
-.portfolio__item{
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 1rem;
-    border: 2px solid transparent;
-    transition: var(--transition);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.portfolio__item:hover{
-    background: rgba(159, 194, 255, 0.644);
-    border-color: var(--color-primary);
-}
-
-.portfolio__item-image{
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+.portfolio__item:hover {
+  background: rgb(0, 116, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 116, 221, 0.3) 0%,
+    rgba(175, 0, 249, 0.3) 100%
+  );
+  box-shadow: 0 0 20px 2px var(--color-primary);
 }
 
-.portfolio__item-cta{
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
+.portfolio__item-image {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 1px solid gold;
+}
+.border:hover{
+  border: 1px solid transparent !important;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
-@media screen and (max-width: 1024px){
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
+@media screen and (max-width: 1024px) {
+  .portfolio__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
 }
 
 /*===== Media Queries ( Small Screen Devices) =====*/
-@media screen and (max-width: 600px){
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+@media screen and (max-width: 600px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
