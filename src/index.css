@@ -39,7 +39,9 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  height: 100vh;
   background: url(/src/assets/magicpattern-grid.png);
+  background-position: center;
 }
 
 /*=========== General Styles ============*/

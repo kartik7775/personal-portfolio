@@ -36,13 +36,12 @@ header {
   width: 40%;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  /* border: 2px solid gold; */
   height: 5px;
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 116, 221, 0.3) 0%,
-    rgba(175, 0, 249, 0.3) 100%
+    rgba(0, 114, 221, 0.6) 0%,
+    rgba(174, 0, 249, 0.6) 100%
   );
 }
 
@@ -75,12 +74,13 @@ header {
 /*===== Scroll Down =====*/
 .scroll_down {
   position: absolute;
-  right: -2.3rem;
+  right: -4rem;
   bottom: 7rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1rem;
   letter-spacing: 0.4rem;
+  line-height: 0;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
@@ -109,6 +109,17 @@ header {
     height: 100vh;
   }
 
+<<<<<<< HEAD
+=======
+  .header_socials{
+    bottom: 5rem;
+  }
+  .scroll_down {
+    bottom: 10rem;
+    font-size: small;
+  }
+
+>>>>>>> c8d713e (styles and content modified)
   .header_container > h2 {
     font-size: 2.5rem;
   }

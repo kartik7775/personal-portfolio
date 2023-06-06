@@ -15,10 +15,9 @@ const Experience = () => {
         </span>{" "}
         skills I have acquired over a very long career.
         <br />
-        Skills that make me a <span className="highlighted">
-          useful asset
-        </span>{" "}
-        for people like you.
+        Skills that make me a very{" "}
+        <span className="highlighted">useful asset</span> for people like you.
+        <span className="faded">&nbsp;&nbsp;- Liam Neeson </span>😜
       </h5>
 
       <h2>My &nbsp; Experience</h2>
@@ -46,7 +45,7 @@ const Experience = () => {
             <article className="experience__details">
               <FiCheckCircle className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML 5</h4>
                 <small className="text-light">Expert</small>
               </div>
             </article>
@@ -54,7 +53,7 @@ const Experience = () => {
             <article className="experience__details">
               <FiCheckCircle className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>CSS 3</h4>
                 <small className="text-light">Advance</small>
               </div>
             </article>
@@ -70,7 +69,15 @@ const Experience = () => {
             <article className="experience__details">
               <FiCheckCircle className="experience__details-icon" />
               <div>
-                <h4>React Bootstrap</h4>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Expereienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FiCheckCircle className="experience__details-icon" />
+              <div>
+                <h4>Tailwind CSS</h4>
                 <small className="text-light">Expereienced</small>
               </div>
             </article>
@@ -85,15 +92,7 @@ const Experience = () => {
             <article className="experience__details">
               <FiCheckCircle className="experience__details-icon" />
               <div>
-                <h4>Git Version Control System</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <FiCheckCircle className="experience__details-icon" />
-              <div>
-                <h4>Next.js</h4>
+                <h4>Version Control</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -109,7 +108,23 @@ const Experience = () => {
             <article className="experience__details">
               <FiCheckCircle className="experience__details-icon" />
               <div>
+                <h4>Next.js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FiCheckCircle className="experience__details-icon" />
+              <div>
                 <h4>MongoDB</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FiCheckCircle className="experience__details-icon" />
+              <div>
+                <h4>Firebase</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -125,7 +140,7 @@ const Experience = () => {
             <article className="experience__details">
               <FiCheckCircle className="experience__details-icon" />
               <div>
-                <h4>C++ / DSA</h4>
+                <h4>C++ | DSA</h4>
                 <small className="text-light">Intermidiate</small>
               </div>
             </article>

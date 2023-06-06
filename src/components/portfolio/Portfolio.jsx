@@ -42,7 +42,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
-    title: "Disney+ : Website Clone",
+    title: "Disney+ : Website Clone (currently working on)",
     github: "https://github.com/kartik7775",
     demo: "https://dribbble.com/kartikN775/collections",
   },
