@@ -95,12 +95,6 @@ header {
   .line {
     display: none;
   }
-  /* .me{
-        width: 15rem;
-        height: 20rem;
-        margin-top: 1rem;
-        padding: 1rem;
-    } */
 }
 
 /*===== Media Queries ( Small Screen Devices) =====*/
@@ -109,17 +103,11 @@ header {
     height: 100vh;
   }
 
-<<<<<<< HEAD
-=======
-  .header_socials{
-    bottom: 5rem;
-  }
+  /* .header_socials,
   .scroll_down {
-    bottom: 10rem;
-    font-size: small;
-  }
+    display: none;
+  } */
 
->>>>>>> c8d713e (styles and content modified)
   .header_container > h2 {
     font-size: 2.5rem;
   }
