@@ -15,12 +15,12 @@ header {
 
 .header_container > h1 {
   font-family: "Splash", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .header_container > h2 {
   font-family: "Splash", cursive;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .header_container > h5 {
@@ -56,7 +56,6 @@ header {
 /*===== Header Socials =====*/
 .header_socials {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 0.8rem;
   position: absolute;
@@ -64,6 +63,12 @@ header {
   bottom: 3rem;
 }
 
+.header_socials::before {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background-color: var(--color-primary);
+}
 .header_socials::after {
   content: "";
   width: 2px;
@@ -74,20 +79,16 @@ header {
 /*===== Scroll Down =====*/
 .scroll_down {
   position: absolute;
-  right: -4rem;
-  bottom: 7rem;
-  transform: rotate(90deg);
+  right: -2.3rem;
+  bottom: 3rem;
   font-weight: 300;
   font-size: 1rem;
-  letter-spacing: 0.4rem;
-  line-height: 0;
+  letter-spacing: 0.3rem;
+  line-height: 2;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
 @media screen and (max-width: 1024px) {
-  header {
-    height: 90vh;
-  }
   .cta {
     margin-top: 3rem;
   }
@@ -103,10 +104,17 @@ header {
     height: 100vh;
   }
 
-  /* .header_socials,
-  .scroll_down {
-    display: none;
-  } */
+  .header_socials{
+    display: flex;
+    transform: scale(.7);
+    flex-direction: column;
+  }
+
+  .scroll_down{
+    transform: rotate(90deg) scale(.8);
+    padding-bottom: 3rem;
+    bottom: 6rem;
+  }
 
   .header_container > h2 {
     font-size: 2.5rem;
@@ -131,3 +139,4 @@ header {
     align-items: center;
   }
 }
+

@@ -8,7 +8,6 @@
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;
-  border: 2px solid transparent;
   transition: var(--transition);
   display: flex;
   flex-direction: column;
@@ -18,8 +17,8 @@
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 116, 221, 0.3) 0%,
-    rgba(175, 0, 249, 0.3) 100%
+    rgba(0, 116, 221, 0.5) 0%,
+    rgba(175, 0, 249, 0.5) 100%
   );
   box-shadow: 0 0 20px 2px var(--color-primary);
 }
@@ -29,8 +28,11 @@
   overflow: hidden;
 }
 
-.portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+.portfolio__item p {
+  margin: 0 0 2rem;
+  color: #ffffffad;
+  text-align: center;
+  font-size: .85em;
 }
 
 .portfolio__item-cta {

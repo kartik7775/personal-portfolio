@@ -1,6 +1,6 @@
 .about__container {
   display: grid;
-  grid-template-columns: 35% 50%;
+  grid-template-columns: 50% 35%;
   gap: 15%;
 }
 
@@ -21,7 +21,7 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(15deg);
   transition: var(--transition);
 }
 
@@ -47,8 +47,8 @@
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 116, 221, 0.3) 0%,
-    rgba(175, 0, 249, 0.3) 100%
+    rgba(0, 116, 221, 0.5) 0%,
+    rgba(175, 0, 249, 0.5) 100%
   );
   box-shadow: 0 0 20px 2px var(--color-primary);
   cursor: default;
@@ -75,7 +75,7 @@
 }
 
 .about__content .btn {
-  float: right;
+  float: left;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
@@ -97,14 +97,11 @@
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 3rem;
   }
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-  }
-  .about__content {
-    text-align: center;
   }
   .about__content p {
     margin: 1.5rem 0;

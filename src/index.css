@@ -102,19 +102,19 @@ a:hover {
   transition: var(--transition);
 }
 .btn:hover {
-  color: var(--color-bg);
+  color: #000;
   border: none;
-  background: rgb(0, 116, 221);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 116, 221, 0.4234068627450981) 0%,
-    rgba(175, 0, 249, 0.6194852941176471) 100%
-  );
+  background: var(--color-primary);
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-primary-variant);
+  color: var(--color-primary);
+  background: rgb(0, 116, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 116, 221, 0.7) 0%,
+    rgba(175, 0, 249, 0.7) 100%
+  );
 }
 
 img {
@@ -143,6 +143,10 @@ img {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
+  }
+
+  section {
+    margin-top: 0;
   }
 
   section > h2 {

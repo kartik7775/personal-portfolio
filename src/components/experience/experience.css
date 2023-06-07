@@ -15,8 +15,8 @@
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 116, 221, 0.3) 0%,
-    rgba(175, 0, 249, 0.3) 100%
+    rgba(0, 116, 221, 0.5) 0%,
+    rgba(175, 0, 249, 0.5) 100%
   );
   box-shadow: 0 0 20px 2px var(--color-primary);
   cursor: default;
@@ -87,5 +87,8 @@
     width: 100%;
     padding: 2rem 1rem;
     margin: 0 auto;
+  }
+  .dialogue{
+    text-align: left;
   }
 }

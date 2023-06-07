@@ -49,23 +49,30 @@ footer a {
 }
 
 .footer__socials a {
+  display: flex;
+  padding: 0.8rem;
   background: var(--color-bg);
   color: var(--color-light);
-  padding: 0.8rem;
   border-radius: 0.7rem;
-  display: flex;
   border: 1px solid transparent;
+  font-size: large;
 }
 
 .footer__socials a:hover {
-  background: transparent;
-  color: black;
-  border-color: var(--color-bg);
+  background: rgb(0, 116, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 114, 221, 0.8) 0%,
+    rgba(174, 0, 249, 0.8) 100%
+  );
+  color: #fff;
+  border-color: gold;
 }
 
 .footer__copyright {
   margin-bottom: 4rem;
   color: black;
+  font-size: medium;
 }
 
 /*===== Media Queries ( Small Screen Devices) =====*/
