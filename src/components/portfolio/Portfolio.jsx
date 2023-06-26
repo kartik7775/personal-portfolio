@@ -6,7 +6,7 @@ import IMG2 from "../../assets/getprompts.png";
 import IMG3 from "../../assets/guessthenumber.png";
 import IMG4 from "../../assets/quizzeroma.png";
 import IMG5 from "../../assets/disney.png";
-import IMG6 from "../../assets/cars.png";
+// import IMG6 from "../../assets/cars.png";
 
 const data = [
   {
@@ -49,14 +49,14 @@ const data = [
     github: "https://github.com/kartik7775",
     demo: "https://dribbble.com/kartikN775/collections",
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Car Showroom",
-    info: "Landing Page",
-    github: "https://github.com/kartik7775",
-    demo: "https://dribbble.com/kartikN775/collections",
-  },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: "Car Showroom",
+  //   info: "Landing Page",
+  //   github: "https://github.com/kartik7775",
+  //   demo: "https://dribbble.com/kartikN775/collections",
+  // },
 ];
 
 const Portfolio = () => {

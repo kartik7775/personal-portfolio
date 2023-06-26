@@ -11,7 +11,9 @@ const HeaderSocials = () => {
 
         <a href="https://github.com/kartik7775" target="_blank" rel="noreferrer"><FaGithub/></a>
 
-        <a href="https://www.instagram.com/_kartix/" target="_blank" rel="noreferrer"><BsInstagram/></a>
+        {/* <a href="https://www.instagram.com/_kartix/" target="_blank" rel="noreferrer"><BsInstagram/></a> */}
+        
+        <a href="https://www.instagram.com/dev.kartikn/" target="_blank" rel="noreferrer"><BsInstagram/></a>
 
     </div>
   )

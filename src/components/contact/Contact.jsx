@@ -14,7 +14,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_jal5a8k",
+        "service_9j4ww84",
         "template_wba6avk",
         form.current,
         "MMgcwKOvIRb-aCqOB"
@@ -33,8 +33,8 @@ const Contact = () => {
           <article className="contact__option">
             <GoMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>krt1993@outlook.com</h5>
-            <a href="mailto:krt1993@outlook.com" target="_blank" rel="noreferrer">
+            <h5>dev.kartiknikam@gmail.com</h5>
+            <a href="mailto:dev.kartiknikam@gmail.com" target="_blank" rel="noreferrer">
               Send a mail
             </a>
           </article>

@@ -14,12 +14,12 @@ header {
 }
 
 .header_container > h1 {
-  font-family: "Splash", cursive;
+  font-family: "Splash", cursive, sans-serif;
   font-size: 3rem;
 }
 
 .header_container > h2 {
-  font-family: "Splash", cursive;
+  font-family: "Splash", cursive, sans-serif;
   font-size: 4rem;
 }
 
@@ -126,7 +126,7 @@ header {
   }
 
   .header_container h1 {
-    font-size: 27px;
+    font-size: 30px;
   }
 
   .header_container > h5 {
