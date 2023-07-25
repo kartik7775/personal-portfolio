@@ -3,7 +3,7 @@ import "./portfolio.css";
 // import IMG from "../../assets/projects.jpg";
 import IMG1 from "../../assets/imagenerator.png";
 import IMG2 from "../../assets/getprompts.png";
-import IMG3 from "../../assets/fungram.png";
+import IMG3 from "../../assets/task-manager_02.png";
 import IMG5 from "../../assets/quizzeroma.png";
 import IMG4 from "../../assets/knotes.png";
 import IMG6 from "../../assets/guess-the-number.png";
@@ -15,7 +15,7 @@ const data = [
         title: "imagenerator",
         info: "AI Powered Image Generator Full Stack Application",
         github: "https://github.com/kartik7775/imagenerator",
-        demo: "https://imagenerator-ai.vercel.app/",
+        demo: "https://ai-imagenerator.vercel.app/",
     },
     {
         id: 2,
@@ -28,10 +28,10 @@ const data = [
     {
         id: 3,
         image: IMG3,
-        title: "Fungram",
-        info: "Social Media Application Mock-up",
-        github: "https://github.com/kartik7775",
-        demo: "https://fungram-social-media.netlify.app/",
+        title: "Task Manager",
+        info: "Task Manager web aplication built with Next.js and TypeScript",
+        github: "https://github.com/kartik7775/just-did-it",
+        demo: "https://just-did-it.netlify.app/",
     },
     {
         id: 4,
@@ -53,8 +53,8 @@ const data = [
         id: 6,
         image: IMG6,
         title: "Guess The Number",
-        github: "https://github.com/kartik7775/Guess-The-Number-Game",
         info: "A fun for all, number geussing game application.",
+        github: "https://github.com/kartik7775/Guess-The-Number-Game",
         demo: "https://numberguessing.vercel.app/",
     },
 ];
@@ -81,7 +81,7 @@ const Portfolio = () => {
                             <div className="portfolio__item-cta">
                                 <a
                                     href={github}
-                                    className="btn border"
+                                    className="btn"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
@@ -89,11 +89,11 @@ const Portfolio = () => {
                                 </a>
                                 <a
                                     href={demo}
-                                    className="btn btn-primary"
+                                    className="btn"
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Live Demo
+                                    Checkout Live
                                 </a>
                             </div>
                         </article>

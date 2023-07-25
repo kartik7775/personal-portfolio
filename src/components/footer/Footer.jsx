@@ -4,10 +4,12 @@ import {BsInstagram} from 'react-icons/bs'
 import {FiTwitter} from 'react-icons/fi'
 import {FaGithub} from 'react-icons/fa'
 import {AiOutlineLinkedin} from 'react-icons/ai'
+import {MdOutlineKeyboardArrowUp} from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
+      <MdOutlineKeyboardArrowUp /><br />
       <a href="/#" className='footer__logo'>Kartik Nikam</a>
 
       <ul className="permalinks">

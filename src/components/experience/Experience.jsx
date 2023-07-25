@@ -5,21 +5,7 @@ import { FiCheckCircle } from "react-icons/fi";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5 className="dialogue">
-        I don't know what you want. If you are looking for ransom, I can tell
-        you I don't have money.
-        <br />
-        But what{" "}
-        <span className="highlighted">
-          I do have are a very particular set of skills,
-        </span>{" "}
-        skills I have acquired over a very long career.
-        <br />
-        Skills that make me a very{" "}
-        <span className="highlighted">useful asset</span> for people like you.
-        <span className="faded">&nbsp;&nbsp;- Liam Neeson </span>😜
-      </h5>
-
+      <h5>Working knowledge</h5>
       <h2>My &nbsp; Experience</h2>
 
       <div className="container experience__container">

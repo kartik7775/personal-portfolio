@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME1 from "../../assets/ME1.jpg";
+import ME1 from "../../assets/ME1.jpeg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -29,7 +29,7 @@ const About = () => {
                         <article className="about__card">
                             <VscFolderLibrary className="about__icon" />
                             <h5>Projects</h5>
-                            <small>15+ Completed</small>
+                            <small>10+ Completed</small>
                         </article>
                     </div>
 
@@ -40,14 +40,13 @@ const About = () => {
                         passionate about creating user-friendly and responsive
                         web applications. I have experience in designing
                         efficient UI layouts and developing user interactive
-                        sites using modern technologies like React.js
-                        and Next.js. I am dedicated to writing clean,
-                        maintainable, and easy-to-understand code. I am also
-                        familiar with popular front-end development tools,
-                        frameworks and libraries like TailwindCSS, Bootstrap,
-                        Redux, and GitHub. I am excited to continue learning and
-                        growing as a developer while contributing to innovative
-                        projects.
+                        sites using modern technologies like React.js and
+                        Next.js. I am dedicated to writing clean, maintainable,
+                        and easy-to-understand code. I am also familiar with
+                        popular front-end development tools, frameworks and
+                        libraries like TailwindCSS, Bootstrap, Redux, and
+                        GitHub. I am excited to continue learning and growing as
+                        a developer while contributing to innovative projects.
                         <br />
                         <br />
                         &nbsp; &nbsp;{" "}
@@ -62,15 +61,15 @@ const About = () => {
                         design web-applications is on another level.
                         <br />
                         &nbsp; &nbsp; Some of my <strong>hobbies</strong>:
-                        &nbsp; Programming, Movies & Shows, Music, Food, Travelling, Photography, Table
-                        Tennis, etc. <br />
+                        &nbsp; Programming, Movies & Shows, Music, Food,
+                        Travelling, Photography, Table Tennis, etc. <br />
                         &nbsp; &nbsp; You can{" "}
                         <span className="highlighted">untilt</span> my picture,
                         btw.
                     </p>
 
                     <a href="#contact" className="btn btn-primary">
-                        Let's Talk
+                        Let's Chat
                     </a>
                 </div>
 

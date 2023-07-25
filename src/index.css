@@ -1,53 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root {
-  --color-bg: #ffffff;
-  --color-bg-variant: #c2c2c253;
-  --color-primary: gold;
-  --color-primary-variant: rgba(0, 0, 0, 0.8);
-  --color-white: rgb(255, 255, 255);
-  --color-light: rgb(0, 0, 0);
-  --color-me: #000;
+    --color-bg: #ffffff;
+    --color-bg-variant: #c2c2c253;
+    --color-primary: gold;
+    --color-primary-variant: rgba(0, 0, 0, 0.8);
+    --color-white: rgb(255, 255, 255);
+    --color-light: rgb(0, 0, 0);
 
-  --transition: all 250ms ease;
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+    --transition: all 250ms ease;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
-  color: var(--color-white);
-  line-height: 1.7;
-  height: 100vh;
-  background: url(/src/assets/magicpattern-grid.png);
-  background-position: center;
+    font-family: "Poppins", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    height: 100vh;
+    background: url(/src/assets/magicpattern-grid.png);
+    background-position: center;
 }
 
 /*=========== General Styles ============*/
 .container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
+    width: var(--container-width-lg);
+    margin: 0 auto;
 }
 
 h1,
@@ -55,101 +53,100 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 h1 {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 section {
-  margin-top: 10rem;
+    margin-top: 10rem;
 }
 
 section > h2,
 section > h5 {
-  text-align: center;
-  color: var(--color-white);
+    text-align: center;
+    color: var(--color-white);
 }
 
 section > h2 {
-  color: var(--color-primary);
-  margin-bottom: 3rem;
-  font-family: "Splash", cursive;
-  font-size: 30px;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+    font-family: "Splash", cursive;
+    font-size: 30px;
 }
 
 .text-light {
-  color: var(--color-light);
+    color: var(--color-light);
 }
 
 a {
-  color: var(--color-primary);
-  transition: var(--transition);
+    color: var(--color-primary);
+    transition: var(--transition);
 }
 
 a:hover {
-  color: var(--color-white);
+    color: var(--color-white);
 }
 
 .btn {
-  width: max-content;
-  display: inline-block;
-  color: var(--color-primary);
-  padding: 0.75rem 1.2rem;
-  border-radius: 1rem;
-  cursor: pointer;
-  transition: var(--transition);
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    transition: var(--transition);
 }
 .btn:hover {
-  color: #000;
-  border: none;
-  background: var(--color-primary);
+    color: #000;
+    border: none;
+    background: var(--color-primary);
 }
 
 .btn-primary {
-  color: var(--color-primary);
-  background: rgb(0, 116, 221);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 116, 221, 0.7) 0%,
-    rgba(175, 0, 249, 0.7) 100%
-  );
+    color: var(--color-primary);
+    background: rgb(0, 116, 221);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 116, 221, 0.7) 0%,
+        rgba(175, 0, 249, 0.7) 100%
+    );
 }
 
 img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 .highlighted {
-  color: gold;
-  font-size: 1.1em;
+    color: gold;
+    font-size: 1.1em;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
 @media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
+    .container {
+        width: var(--container-width-md);
+    }
 
-  section {
-    margin-top: 6rem;
-  }
+    section {
+        margin-top: 6rem;
+    }
 }
 
 /*===== Media Queries ( Small Screen Devices) =====*/
 @media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
+    .container {
+        width: var(--container-width-sm);
+    }
 
-  section {
-    margin-top: 0;
-  }
+    section {
+        margin-top: 0;
+    }
 
-  section > h2 {
-    margin-bottom: 2rem;
-  }
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
