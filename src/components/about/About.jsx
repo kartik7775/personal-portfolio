@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME1 from "../../assets/ME1.jpeg";
+import ME1 from "../../assets/kartik-new.jpeg"
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
