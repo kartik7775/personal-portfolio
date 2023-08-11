@@ -22,7 +22,7 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://www.instagram.com/dev.kartikn/" target='_blank' rel="noreferrer"><BsInstagram/></a>
-        <a href="https://twitter.com/KartikNikam1" target='_blank' rel="noreferrer"><FiTwitter/></a>
+        <a href="https://twitter.com/dev_kartiknikam" target='_blank' rel="noreferrer"><FiTwitter/></a>
         <a href="https://www.linkedin.com/in/kartik-nikam/" target='_blank' rel="noreferrer"><AiOutlineLinkedin/></a>
         <a href="https://github.com/kartik7775" target='_blank' rel="noreferrer"><FaGithub/></a>
       </div>
