@@ -24,7 +24,7 @@
 }
 
 .contact__option:hover {
-    background: black;
+    background: var(--color-primary);
     box-shadow: 0 0 10px 1px var(--color-primary);
 }
 
@@ -37,7 +37,7 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 

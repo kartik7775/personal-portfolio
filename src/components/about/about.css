@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
   grid-template-columns: 50% 35%;
-  /* place-items: center; */
+  place-items: center;
   gap: 15%;
 }
 
@@ -33,13 +33,13 @@
 }
 
 .about__card:hover {
-  background: black;
+  background: var(--color-primary);
   box-shadow: 0 0 10px 1px var(--color-primary);
   cursor: default;
 }
 
 .about__icon {
-  color: var(--color-primary);
+  color: var(--color-black);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -50,12 +50,13 @@
 
 .about__card small {
   font-size: 0.7rem;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .about__content p {
   margin: 2rem 0;
-  color: var(--color-white);
+  color: var(--color-black);
+  background: var(--color-white);
 }
 
 .about__content .btn {

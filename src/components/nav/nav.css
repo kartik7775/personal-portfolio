@@ -10,14 +10,17 @@ nav {
     display: flex;
     gap: 0.8rem;
     backdrop-filter: blur(15px);
+    box-shadow: 0 5px 15px var(--color-primary);
+    border-radius: 0.5rem;
 }
 
 nav a {
     background: transparent;
     padding: 0.8rem;
     display: flex;
-    color: var(--color-light);
+    color: var(--color-black);
     font-size: 1.1rem;
+    border-radius: 0.5rem;
 }
 
 nav a:hover {
@@ -25,7 +28,7 @@ nav a:hover {
 }
 
 nav a.active {
-    color: var(--color-bg);
+    color: var(--color-white);
     background: rgb(0, 116, 221);
     background: linear-gradient(
         90deg,

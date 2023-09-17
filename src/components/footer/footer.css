@@ -54,8 +54,8 @@ footer {
 .footer__socials a {
   display: flex;
   padding: 0.8rem;
-  background: var(--color-bg);
-  color: var(--color-light);
+  background: var(--color-white);
+  color: var(--color-black);
   font-size: large;
 }
 

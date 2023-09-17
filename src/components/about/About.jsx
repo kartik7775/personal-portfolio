@@ -60,12 +60,8 @@ const About = () => {
                         life. But the satisfaction of writing code to create and
                         design web-applications is on another level.
                         <br />
-                        &nbsp; &nbsp; Some of my <strong>hobbies</strong>:
-                        &nbsp; Programming, Movies & Shows, Music, Food,
-                        Travelling, Photography, Table Tennis, etc. <br />
-                        &nbsp; &nbsp; You can{" "}
-                        <span className="highlighted">untilt</span> my picture,
-                        btw.
+                        &nbsp; &nbsp; Some of my <strong>interests</strong>:
+                        &nbsp; Learning, Coding, Designing, Bikes, Table Tennis, Photography, etc.
                     </p>
 
                     <a href="#contact" className="btn btn-primary">
