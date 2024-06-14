@@ -3,7 +3,6 @@
 
 header {
   height: 100vh;
-  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -11,6 +10,10 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .header_container > h1 {
@@ -23,25 +26,26 @@ header {
   line-height: 0.2;
 }
 
-.header_container > h5 {
+.header_container > h3 {
   font-family: "Krona One", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 2rem 0;
   color: var(--color-primary);
+  text-shadow: 1px 1px black;
 }
 
 .line {
-  position: absolute;
+  /* position: absolute; */
   left: 30%;
-  width: 40%;
+  width: 60%;
   margin-top: 3rem;
   margin-bottom: 1rem;
   height: 5px;
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 114, 221, 0.6) 0%,
-    rgba(174, 0, 249, 0.6) 100%
+    rgba(0, 114, 221, 0.7) 0%,
+    rgba(174, 0, 249, 0.7) 100%
   );
 }
 

@@ -15,12 +15,13 @@
     background: rgb(0, 116, 221);
     background: linear-gradient(
         90deg,
-        rgba(0, 116, 221, 0.5) 0%,
-        rgba(175, 0, 249, 0.5) 100%
+        rgba(0, 116, 221, 0.65) 0%,
+        rgba(175, 0, 249, 0.65) 100%
     );
     padding: 1.2rem;
     text-align: center;
     transition: var(--transition);
+    border-radius: 0.75rem;
 }
 
 .contact__option:hover {
@@ -29,14 +30,14 @@
 }
 
 .contact__option-icon {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 0.5rem;
 }
 
 .contact__option a {
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--color-black);
 }
 
@@ -54,12 +55,14 @@ form {
 
 input,
 textarea {
+    font-size: 1rem;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     background: transparent;
     border: 2px solid var(--color-primary);
     resize: none;
     background-color: var(--color-white);
+    border-radius: 0.75rem;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/

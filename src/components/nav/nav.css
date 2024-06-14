@@ -32,7 +32,7 @@ nav a.active {
     background: rgb(0, 116, 221);
     background: linear-gradient(
         90deg,
-        rgba(0, 116, 221) 0%,
-        rgba(175, 0, 249) 100%
+        rgba(0, 116, 221, 0.8) 0%,
+        rgba(175, 0, 249, 0.8) 100%
     );
 }

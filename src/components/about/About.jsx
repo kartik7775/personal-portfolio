@@ -51,7 +51,7 @@ const About = () => {
                         <br />
                         &nbsp; &nbsp;{" "}
                         <span className="highlighted">
-                            Here's something personal:
+                            Here's something personal :
                         </span>{" "}
                         I have just recently embarked on this path of
                         progrmaming, which of course feels like I've finally

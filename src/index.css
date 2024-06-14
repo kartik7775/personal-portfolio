@@ -96,6 +96,7 @@ a:hover {
     padding: 0.75rem 1.2rem;
     cursor: pointer;
     transition: var(--transition);
+    border-radius: .75rem;
 }
 .btn:hover {
     color: var(--color-black);
@@ -120,7 +121,7 @@ img {
 }
 
 .highlighted {
-    color: var(--color-primary);
+    color: black;
     font-size: 1.1em;
     text-shadow: 1px 1px 2px var(--color-primary);
 }

@@ -24,8 +24,8 @@
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 116, 221, 0.5) 0%,
-    rgba(175, 0, 249, 0.5) 100%
+    rgba(0, 116, 221, 0.65) 0%,
+    rgba(175, 0, 249, 0.65) 100%
   );
   padding: 2rem;
   text-align: center;

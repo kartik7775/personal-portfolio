@@ -2,8 +2,8 @@ footer {
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 116, 221, 0.5) 0%,
-    rgba(175, 0, 249, 0.5) 100%
+    rgba(0, 116, 221, 0.8) 0%,
+    rgba(175, 0, 249, 0.8) 100%
   );
 
   padding: 3rem 0;
@@ -57,6 +57,7 @@ footer {
   background: var(--color-white);
   color: var(--color-black);
   font-size: large;
+  border-radius: 0.75rem;
 }
 
 .footer__socials a:hover {
