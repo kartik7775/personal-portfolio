@@ -5,12 +5,8 @@
 }
 
 .portfolio__item {
-    background: rgb(0, 116, 221);
-    background: linear-gradient(
-        90deg,
-        rgba(0, 116, 221, 0.65) 0%,
-        rgba(175, 0, 249, 0.65) 100%
-    );
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
     padding: 1.2rem;
     transition: var(--transition);
     display: flex;
@@ -20,7 +16,7 @@
 }
 
 .portfolio__item:hover {
-    background: transparent;
+    background-color: var(--color-primary);
     box-shadow: 0 0 10px 1px var(--color-primary);
 }
 
@@ -31,7 +27,7 @@
 
 .portfolio__item p {
     margin: 0 0 2rem;
-    color: var(--color-black);
+    color: var(--color-white);
     text-align: center;
     font-size: 0.85em;
 }
@@ -47,15 +43,11 @@
     background-color: var(--color-primary);
     color: black;
     padding: 0.5rem 0.7rem;
+    border: 2px solid var(--color-primary-variant);
 }
 .portfolio__item-cta a:hover {
-    background: rgb(0, 116, 221);
-    background: linear-gradient(
-        90deg,
-        rgba(0, 116, 221, 0.5) 0%,
-        rgba(175, 0, 249, 0.5) 100%
-    );
-    color: white;
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/

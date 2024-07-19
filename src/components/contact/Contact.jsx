@@ -64,14 +64,14 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Enter Your Name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder="Enter Your E-mail ID" required />
           <textarea
             name="message"
             id=""
-            placeholder="Your message: Type here"
+            placeholder="Type your message here.."
             required
             rows="7"
           ></textarea>

@@ -5,20 +5,15 @@
 }
 
 .experience__container > div {
-    background: rgb(0, 116, 221);
-    background: linear-gradient(
-        90deg,
-        rgba(0, 116, 221, 0.65) 0%,
-        rgba(175, 0, 249, 0.65) 100%
-    );
-
+    background-color: var(--color-primary-variant);
     padding: 2.4rem 4rem;
     transition: var(--transition);
+    border-radius: 0.75rem;
 }
 .experience__container > div:hover {
-    background: var(--color-primary);
-    color: var(--color-black);
-    box-shadow: 0 0 10px 1px var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-blue);
+    box-shadow: 0 0 10px 1px var(--color-primary-variant);
     cursor: default;
 }
 
@@ -27,9 +22,9 @@
     margin-bottom: 1rem;
     color: var(--color-white);
     font-weight: bolder;
-    border-bottom: 1px solid var(--color-black);
+    border-bottom: 1px solid var(--color-blue);
     padding-bottom: 1rem;
-    text-shadow: 2px 3px 5px var(--color-black);
+    text-shadow: 2px 3px 5px var(--color-blue);
 }
 
 /* .experience__container > div h4 {

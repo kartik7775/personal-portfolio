@@ -1,5 +1,5 @@
 nav {
-    background: rgba(255, 255, 255, 0.95);
+    background-color: var(--color-white);
     width: max-content;
     padding: 0.7rem 1.5rem;
     z-index: 2;
@@ -10,17 +10,17 @@ nav {
     display: flex;
     gap: 0.8rem;
     backdrop-filter: blur(15px);
-    box-shadow: 0 5px 15px var(--color-primary);
-    border-radius: 0.5rem;
+    box-shadow: 1px 5px 10px var(--color-primary-variant);
+    border-radius: 0.75rem;
 }
 
 nav a {
     background: transparent;
     padding: 0.8rem;
     display: flex;
-    color: var(--color-black);
+    color: var(--color-blue);
     font-size: 1.1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
 }
 
 nav a:hover {
@@ -29,10 +29,5 @@ nav a:hover {
 
 nav a.active {
     color: var(--color-white);
-    background: rgb(0, 116, 221);
-    background: linear-gradient(
-        90deg,
-        rgba(0, 116, 221, 0.8) 0%,
-        rgba(175, 0, 249, 0.8) 100%
-    );
+    background-color: var(--color-blue);
 }

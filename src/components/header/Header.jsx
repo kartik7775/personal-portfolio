@@ -12,11 +12,10 @@ const Header = () => {
         
         <h1 className='text-dark'>Front-end Web Developer</h1>
         <br />
-        <h3>name is</h3>
         
-        <h2>Kartik Nikam</h2>
-
         <div className="line"></div>
+
+        <h2>Kartik Nikam</h2>
 
         <CTA />
         

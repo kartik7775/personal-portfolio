@@ -1,98 +1,96 @@
 .about__container {
-  display: grid;
-  grid-template-columns: 50% 35%;
-  place-items: center;
-  gap: 15%;
+    display: grid;
+    grid-template-columns: 50% 35%;
+    place-items: center;
+    gap: 15%;
 }
 
 .about__me {
-  width: 80%;
-  margin: auto 0;
+    width: 80%;
+    margin: auto 0;
 }
 
 .about__me-image {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .about__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .about__card {
-  background: rgb(0, 116, 221);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 116, 221, 0.65) 0%,
-    rgba(175, 0, 249, 0.65) 100%
-  );
-  padding: 2rem;
-  text-align: center;
-  transition: var(--transition);
+    background-color: var(--color-primary-variant);
+    color: var(--color-white);
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    border-radius: 0.75rem;
 }
 
 .about__card:hover {
-  background: var(--color-primary);
-  box-shadow: 0 0 10px 1px var(--color-primary);
-  cursor: default;
+    color: var(--color-blue);
+    background: var(--color-primary);
+    box-shadow: 0 0 10px 1px var(--color-primary-variant);
+    cursor: default;
 }
 
 .about__icon {
-  color: var(--color-black);
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 .about__card h5 {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .about__card small {
-  font-size: 0.7rem;
-  color: var(--color-black);
+    color: var(--color-white);
+    font-size: 0.7rem;
 }
 
 .about__content p {
-  margin: 2rem 0;
-  color: var(--color-black);
-  background: var(--color-white);
+    margin: 2rem 0;
+    color: var(--color-blue);
+    background: var(--color-white-variant);
 }
 
 .about__content .btn {
-  float: left;
+    float: left;
 }
 
 /*===== Media Queries ( Medium Screen Devices) =====*/
 @media screen and (max-width: 1024px) {
-  .about__container {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-  .about__me {
-    width: 50%;
-    margin: 2rem auto 4rem;
-  }
-  .about__content p {
-    margin: 1rem 0 1.5rem;
-  }
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about__me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
 }
 
 /*===== Media Queries ( Small Screen Devices) =====*/
 @media screen and (max-width: 600px) {
-  .about__me {
-    width: 65%;
-    margin: 3rem;
-  }
-  .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-  .about__content p {
-    margin: 1.5rem 0;
-  }
-  .about__content .btn {
-    float: none;
-    margin-top: 1rem;
-  }
+    .about__me {
+        width: 65%;
+        margin: 3rem;
+    }
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about__content p {
+        margin: 1.5rem 0;
+    }
+    .about__content .btn {
+        float: none;
+        margin-top: 1rem;
+    }
 }

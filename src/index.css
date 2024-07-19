@@ -11,11 +11,17 @@
 }
 
 :root {
-    --color-white-variant: #c2c2c253;
-    --color-primary: gold;
+    --color-white-variant: rgb(255, 240, 206);
+    --color-primary: rgb(255, 196, 54);
+    --color-blue: rgb(12, 53, 106);
+    --color-primary-variant: rgb(1, 116, 190);
+    --color-white: rgb(255, 255, 255);
+
+    /* --color-white-variant: #c2c2c253;
+    --color-primary: var(--color-primary);
     --color-primary-variant: rgba(0, 0, 0, 0.8);
     --color-white: rgb(255, 255, 255);
-    --color-black: rgb(0, 0, 0);
+    --color-blue: rgb(0, 0, 0); */
 
     --transition: all 250ms ease;
     --container-width-lg: 75%;
@@ -33,11 +39,11 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    background: var(--color-white);
-    color: var(--color-black);
+    color: var(--color-blue);
     line-height: 1.7;
     height: 100vh;
-    background: url(/src/assets/magicpattern-grid.png);
+    background-color: var(--color-white-variant);
+    /* background: url(/src/assets/magicpattern-grid.png); */
     background-position: center;
 }
 
@@ -66,52 +72,47 @@ section {
 section > h2,
 section > h5 {
     text-align: center;
-    color: var(--color-black);
+    color: var(--color-primary-variant);
 }
 
 section > h2 {
-    color: var(--color-black);
+    color: var(--color-blue);
     margin-bottom: 3rem;
     font-family: "Splash", cursive;
     font-size: 30px;
 }
 
 .text-light {
-    color: var(--color-black);
+    color: var(--color-blue);
 }
 
 a {
-    color: var(--color-black);
+    color: var(--color-blue);
     transition: var(--transition);
 }
 
 a:hover {
-    color: var(--color-black);
+    color: var(--color-blue);
 }
 
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-black);
+    color: var(--color-blue);
     padding: 0.75rem 1.2rem;
     cursor: pointer;
     transition: var(--transition);
-    border-radius: .75rem;
+    border-radius: 0.75rem;
 }
 .btn:hover {
-    color: var(--color-black);
+    color: var(--color-blue);
     border: none;
     background: var(--color-primary);
 }
 
 .btn-primary {
-    color: var(--color-black);
-    background: rgb(0, 116, 221);
-    background: linear-gradient(
-        90deg,
-        rgba(0, 116, 221, 0.7) 0%,
-        rgba(175, 0, 249, 0.7) 100%
-    );
+    color: var(--color-white);
+    background-color: var(--color-primary-variant);
 }
 
 img {

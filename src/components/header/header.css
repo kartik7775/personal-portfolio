@@ -18,34 +18,33 @@ header {
 
 .header_container > h1 {
   font-size: 3rem;
-  line-height: 0.2;
+  line-height: 0.5;
 }
 
 .header_container > h2 {
   font-size: 4rem;
-  line-height: 0.2;
+  line-height: 1;
 }
 
 .header_container > h3 {
   font-family: "Krona One", sans-serif;
-  font-size: 1.5rem;
-  margin: 2rem 0;
+  font-size: 2rem;
+  margin: 2.5rem 0;
   color: var(--color-primary);
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px var(--color-primary-variant);
 }
 
 .line {
-  /* position: absolute; */
   left: 30%;
   width: 60%;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  height: 5px;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  height: 3px;
   background: rgb(0, 116, 221);
   background: linear-gradient(
     90deg,
-    rgba(0, 114, 221, 0.7) 0%,
-    rgba(174, 0, 249, 0.7) 100%
+    var(--color-blue) 30%,
+    var( --color-primary) 70%
   );
 }
 
@@ -144,7 +143,7 @@ header {
     font-size: 25px;
   }
 
-  .header_container > h5 {
+  .header_container > h3 {
     margin: 1rem auto;
   }
 
