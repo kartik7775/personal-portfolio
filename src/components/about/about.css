@@ -54,7 +54,7 @@
 .about__content p {
     margin: 2rem 0;
     color: var(--color-blue);
-    background: var(--color-white-variant);
+    /* background: var(--color-white-variant); */
 }
 
 .about__content .btn {

@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-white-variant: rgb(255, 240, 206);
+    --color-white-variant: rgb(234, 234, 234);
     --color-primary: rgb(255, 196, 54);
     --color-blue: rgb(12, 53, 106);
     --color-primary-variant: rgb(1, 116, 190);
@@ -43,7 +43,7 @@ body {
     line-height: 1.7;
     height: 100vh;
     background-color: var(--color-white-variant);
-    /* background: url(/src/assets/magicpattern-grid.png); */
+    background: url(/src/assets/magicpattern-grid.png);
     background-position: center;
 }
 
