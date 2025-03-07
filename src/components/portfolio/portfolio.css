@@ -64,4 +64,8 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
+    section > h5 {
+        margin-top: 2rem;
+    }
 }

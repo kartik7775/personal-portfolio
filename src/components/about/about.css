@@ -80,7 +80,7 @@
 @media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
-        margin: 3rem;
+        margin: 1rem;
     }
     .about__cards {
         grid-template-columns: 1fr 1fr;
